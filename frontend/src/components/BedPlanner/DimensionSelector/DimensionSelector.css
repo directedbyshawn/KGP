@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#dim-select-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+#dim-select-wrapper div {
+    user-select: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+
+}
+
+select {
+    width: 50px;
+    height: 35px;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+#select-width {
+    margin-right: 10px;
+}

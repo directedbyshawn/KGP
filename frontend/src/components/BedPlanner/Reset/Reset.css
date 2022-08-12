@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#reset-button {
+    padding: 10px 15px 10px 15px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#reset-form-wrapper {
+    text-align: center;
+}
+
+.confirmation-buttons {
+    margin: 3px;
+}
+
+#reset-menu-heading {
+    margin-top: 0;
+}

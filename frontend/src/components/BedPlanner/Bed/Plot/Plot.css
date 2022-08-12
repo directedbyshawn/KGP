@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.node {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+}
+
+.node p {
+    width: 100%;
+    user-select: none;
+}
+
+.plot-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.delete-crop {
+    margin: 5px;
+    font-size: 14pt;
+    padding: 2px 7px 1px 7px;
+    border-radius: 20px;
+}
+
+.bed-img {
+    width: 80px;
+    height: auto;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+#page-selector-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#page-selector {
+  border: 2px solid var(--brown);
+  border-radius: 8px;
+  padding: 2px;
+  display: inline-flex;
+  margin: auto;
+}
+
+.page-option {
+  background-color: white;
+  border-radius: 8px;
+  margin: 2px 0 2px 0;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#bed-option {
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+#garden-option {
+  margin-left: 1px;
+  margin-right: 2px;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+

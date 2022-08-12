@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.crop-container {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+}
+
+.crop p {
+    width: 100%;
+    margin: auto;
+    user-select: none;
+}
+
+.name-container {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -165px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.carousel-crop-img {
+    width: 80px;
+    height: auto;
+}
+
+.crop-name {
+    margin: 0;
+}

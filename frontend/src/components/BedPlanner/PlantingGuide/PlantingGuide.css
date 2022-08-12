@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+#guide-wrapper {
+    width: 95%;
+    height: 85%;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.guide-crop {
+    width: 90%;
+    margin: 10px auto 10px auto;
+    padding: 15px;
+    background-color: var(--gray);
+    border-radius: 10px;
+}
+
+.guide-crop h3 {
+    margin: 0;
+    font-size: 18pt;
+}
+
+.link {
+    font-size: 14pt;
+    margin: 0;
+}
+
+.bullets li {
+    user-select: text;
+}
+
+.link a {
+    text-decoration: none;
+    color: var(--brown);
+}
+
+#guide-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#guide-name-container img {
+    width: 50px;
+    height: auto;
+    margin: 0 0 0 10px;
+}
+
+#openPlantingGuide {
+    height: 35px;
+}

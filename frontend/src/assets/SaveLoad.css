@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+#retrieval-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.retrieval-buttons {
+    cursor: pointer;
+}
+
+.menu-heading {
+    font-size: 24pt;
+    margin: 20px 20px 0px 20px
+}
+
+.popup-content {
+    border-radius: 20px;
+}
+
+#save {
+    margin-right: 10px;
+}
+
+#save-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#load-form-wrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 70%;
+}
+
+.save-load-button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 80px;
+}
+
+#load-form-wrapper h2 {
+    margin-top: 0;
+}
+
+#load-form-wrapper input {
+    margin: 5px 5px 5px 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28pt;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: var(--green);
+    cursor: pointer;
+}
+
+.close-button:hover {
+    border: none;
+}
+
+#load-menu-wrapper {
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    user-select: none;
+}
+
+#search-side {
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    height: 40%;
+    max-height: 100%;
+}
+
+#no-results-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#no-results-found p {
+    height: 50px;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+#result-side {
+    max-height: 100%;
+    height: 70%;
+}
+
+#results-wrapper {
+    overflow-y: scroll;
+    margin-top: 20px;
+    max-height: 100%;
+}
+
+.result {
+    width: 80%;
+    background-color: var(--gray);
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-name {
+    display: inline-block;
+    width: 100%;
+}
+
+.result-name p {
+    margin: 5px auto 5px auto;
+}
+
+.add {
+    cursor: default;
+}
+
+.delete-button-container {
+    width: 20px;
+    height: auto;
+}
+
+.delete-button {
+    fill: var(--brown);
+}
+
+#delete-form-wrapper {
+    text-align: center;
+}
+
+#delete-menu-heading {
+    margin-top: 10px;
+}
+
+#delete-loading-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.delete {
+    padding-bottom: 13px;
+}
+
+.success {
+    color: var(--green);
+}
+
+.failure {
+    color: var(--red);
+}
+
+#result-load-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result-load-wrapper {
+    height: 100px;
+    width: 100px;
+}
+
+.update {
+    padding-top: 20px;
+    font-size: 13pt;
+}
+
+.save {
+    padding-top: 13px;
+}
+
+#save-spinner {
+    padding-top: 20px;
+}
+
+#add-page-selector {
+    margin: 10px 0 0 0;
+    border: 2px solid var(--brown);
+    border-radius: 8px;
+    padding: 3px;
+    display: inline-flex;
+    width: auto;
+    justify-content: center;
+}
+
+.add-results-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-option.add {
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#personal-results {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#results-found-add {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#result-side-add {
+    height: 100%;
+    max-height: 100%;
+}
+
+.result.add {
+    width: 80%;
+    margin: 4px 0 4px 0;
+}
+
+#results-wrapper-add {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 20px;
+    max-height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    position: relative;
+    top: 1.5px;
+    left: 3px;
+    cursor: pointer;
+}
+
+.result-left {
+    display: flex;
+}
+
+#add {
+    margin-left: 10px;
+}
+
+h3 span {
+    color: var(--brown);
+}
