@@ -10,13 +10,15 @@
     A web app created for gardeners.com
     <br />
     <br />
-    <a href="https://www.gardeners.com/how-to/garden-planner/garden-designer.html">Check it out!</a>
+    <a href="https://www.gardeners.com/how-to/garden-planner/garden-designer.html" target="_blank">Check it out!</a>
   </p>
 </div>
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<br />
+<img src="images/screenshot.png" width=500px></img>
+<br />
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
