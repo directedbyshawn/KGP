@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#grid-wrapper {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid {
+    display: grid;
+    grid-gap: 2px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 100px auto;
+    background-color: var(--brown);
+    border: 8px solid var(--brown);
+}
+
+#grid-crop-name-wrapper {
+    position: relative;
+    bottom: 90px;
+    height: 25px;
+}
+
+#grid-crop-name {
+    width: 100%;
+    margin: 0;
+    font-size: 14pt;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+#print-button-wrapper {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#print-path {
+    fill: var(--brown);
+}
+
+#print-container {
+    display: none;
+}
+
+@media print {
+
+    /* remove print header & footer */
+    @page { margin: 1cm 0 1cm 0 }
+    body { height: auto; margin: 0 }
+    #root { height: auto; }
+    #main-container { height: auto; padding: 20px;}
+
+    #retrieval-wrapper, #openPlantingGuide, #open-notes,
+    #reset-button, #shovel-wrapper, #carousel-container,
+    #print-button-wrapper, #dim-select-wrapper, #app-title, 
+    #grid-wrapper, #page-selector {
+        display: none;
+    }
+
+    #print-container {
+        display: block;
+        text-align: center;
+    }
+
+    #main-container {
+        display: block;
+        align-items: flex-start;
+    }
+
+    #print-title {
+        font-size: 38pt;
+        margin: 0 auto 0 auto;
+    }
+
+    #print-sub-title {
+        padding: 0;
+        margin: 0 auto 0 auto;
+        font-size: 28pt;
+    }
+
+    #print-name {
+        font-size: 18pt;
+        color: var(--brown);
+    }
+
+    p {
+        color: var(--brown);
+    }
+
+    .guide-crop {
+        text-align: left;
+    }
+
+    .bullets li {
+        color: var(--brown); 
+    }
+
+    #print-model-wrapper {
+        margin: 20px auto 30px auto;
+        display: inline-block;
+    }
+
+    #print-model {
+        display: inline-grid;
+        grid-gap: 4px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--brown);
+        border: 8px solid var(--brown);
+        print-color-adjust: exact;
+        margin-bottom: 30px;
+    }
+
+    .print-crop {
+        width: 100px;
+        height: 155px;
+        print-color-adjust: exact;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .fill-crop {
+        width: 100px;
+        height: 155px;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .print-crop-name {
+        height: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .print-crop p {
+        display: inline-block;
+        margin: 0;
+    }
+
+    #print-notes {
+        font-size: 14pt;
+        margin: 0;
+    }
+
+
+
+}

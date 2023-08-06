@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@media print {
+
+  /* remove print header & footer */
+  @page { margin: 1cm 0 1cm 0 }
+  body { height: auto; margin: 0 }
+  #root { height: auto; }
+  #main-container { height: auto; padding: 20px;}
+
+  #garden-wrapper, #modifiers-container {
+    display: none;
+  }
+
+  #print-name {
+    margin: 20px 0 0 0;
+  }
+
+  #garden-wrapper-print {
+    position: relative;
+    margin: 30px;
+    display: inline-block;
+    print-color-adjust: exact;
+  }
+
+  #garden {
+    display: inline-grid;
+    grid-gap: 1px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    border: 4px solid var(--brown);
+    background-color: var(--brown);
+    print-color-adjust: exact;
+  }
+
+  .garden-plot {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+  }
+
+  .print-bed {
+    display: inline-grid;
+    grid-gap: 1px;
+    position: absolute;
+    background-color: var(--brown);
+    print-color-adjust: exact;
+  }
+
+  .print-bed-crop img{
+    width: 12px;
+    height: 12px;
+    print-color-adjust: exact;
+  }
+
+  .print-bed-crop {
+    display: inline-grid;
+    background-color: var(--gray);
+  }
+
+  .print-plot {
+    display: inline-grid;
+    background-color: white;
+    width: auto;
+    height: auto;
+  }
+
+  .print-plot img {
+    width: 50px;
+    height: auto;
+    user-select: none;
+  }
+
+  .plot-filler {
+    width: 50px;
+    height: 50px;
+  }
+
+  .print-single-bed {
+    width: 90%;
+    background-color: var(--gray);
+    padding: 15px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    print-color-adjust: exact;
+  }
+
+  .print-garden-bed-model {
+    display: inline-grid;
+    max-width: 100%;
+    grid-gap: 2px;
+    border: 4px solid var(--brown);
+    background-color: var(--brown);
+    print-color-adjust: exact;
+  }
+
+  .print-garden-bed-notes {
+    margin: 20px 0 6px 0;
+  }
+
+  .print-single-bed h2 {
+    margin: 10px 0 20px 0;
+  }
+
+  .guide-crop {
+    print-color-adjust: exact;
+  }
+
+  .guide-name-container h3 {
+    margin: 0;
+  }
+
+  .guide-name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .guide-name-container img {
+    width: 50px;
+    height: auto;
+  }
+
+  div {
+    break-inside: avoid;
+  }
+
+  #beds-title {
+    page-break-before: always;
+  }
+
+  #crops-title {
+    page-break-before: always
+  }
+
+}

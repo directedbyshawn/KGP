@@ -1,0 +1,11 @@
+{
+  "short_name": "KGP Testing",
+  "name": "Grid work for the KGP",
+  "icons": [
+    
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
