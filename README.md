@@ -22,7 +22,7 @@
 </div>
 <br />
 
-During my 10 week internship with [gardeners.com](https://www.gardeners.com), I created this full stack web app from scratch. The front-end was built using `React`, paired with an `Express` back-end running on `Node`. Stored and managed data in Azure’s `CosmosDB`. Constructed a pipeline in `YAML` to build and deploy the application from a `DevOps repository` to an `Azure Web App`. 
+During my 10 week internship with [gardeners.com](https://www.gardeners.com), I created this full stack web app from scratch. The front-end was built using **React**, paired with an **Express** back-end running on `Node`. Stored and managed data in Azure’s `CosmosDB`. Constructed a pipeline in `YAML` to build and deploy the application from a `DevOps repository` to an `Azure Web App`. 
 
 This was a solo project, so I was responsible for
 * Requirements gathering
