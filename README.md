@@ -1,19 +1,17 @@
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://www.gardeners.com">
     <img src="https://www.gardeners.com/contentassets/13f0015d28474110873c6cfa612f565d/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Kitchen Garden Planner</h3>
 
   <p align="center">
-    A web app created for gardeners.com
+    A web app created for <a href="https://www.gardeners.com">gardeners.com</a>
     <br />
     <br />
   </p>
 </div>
-
-## About The Project
 
 <br />
 <div align="center">
@@ -21,16 +19,17 @@
 </div>
 <br />
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+During my 10 week internship with [gardeners.com](https://www.gardeners.com), I created this full stack web app from scratch. The front-end was built using `React`, paired with an `Express` back-end running on `Node`. Stored and managed data in Azure’s `CosmosDB`. Constructed a pipeline in `YAML` to build and deploy the application from a `DevOps repository` to an `Azure Web App`. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+This was a solo project, so I was responsible for
+* Requirements gathering
+* UI & UX design
+* Front-end development
+* Back-end development
+* Database design
+* Deployment
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This was a very challenging project for me. Since it was a solo project from scratch, they allowed me to use any stack as long as it could run as an Azure Web App. Seeing as I had never done a larger scale web development project before, I choose a very popular stack as I knew there would be plenty of online resources to guide me. Learning all of these new technologies on my own while trying to complete this project in under 10 weeks was stressful, but overall I'm incredibly grateful for the experience. I learned a ton, and I had a great summer working at Gardeners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,18 +85,22 @@ LinkedIn - [linkedin.com/in/directedbyshawn](https://www.linkedin.com/in/directe
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Dependencies
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Resources that made this project possible.
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [fbemitter](https://www.npmjs.com/package/fbemitter)
+* [mathjs](https://mathjs.org/)
+* [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
+* [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner)
+* [react-router](https://reactrouter.com/en/main)
+* [reactjs-popup](https://www.npmjs.com/package/reactjs-popup)
+* [styled-componenets](https://styled-components.com/)
+* [cors](https://www.npmjs.com/package/cors)
+* [dotenv](https://www.npmjs.com/package/dotenv)
+* [mongodb](https://www.mongodb.com/)
+* [cosmosdb](https://azure.microsoft.com/en-us/products/cosmos-db#:~:text=Azure%20Cosmos%20DB%20for%20NoSQL%20is%20a%20native%20non%2Drelational,language%20designed%20for%20JSON%20data.)
+* [mongoose](https://mongoosejs.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,16 +108,6 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
