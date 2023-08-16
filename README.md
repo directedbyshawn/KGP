@@ -33,8 +33,6 @@ This was a solo project, so I was responsible for
 
 This was a very challenging project for me. Since it was a solo project from scratch, they allowed me to use any stack as long as it could run as an Azure Web App. Seeing as I had never done a larger scale web development project before, I choose a very popular stack as I knew there would be plenty of online resources to guide me. Learning all of these new technologies on my own while trying to complete this project in under 10 weeks was stressful, but overall I'm incredibly grateful for the experience. I learned a ton, and I had a great summer working at Gardeners.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 * [![React][React.js]][React-url]
