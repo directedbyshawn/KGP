@@ -13,6 +13,8 @@
   </p>
 </div>
 
+<h2>About the Project</h2>
+
 <br />
 <div align="center">
     <img src="images/screenshot.png" width=500px></img>
