@@ -5,7 +5,7 @@
     <img src="https://www.gardeners.com/contentassets/13f0015d28474110873c6cfa612f565d/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Kitchen Garden Planner</h3>
+  <h3 align="center">Garden Planner</h3>
 
   <p align="center">
     A web app created for <a href="https://www.gardeners.com">gardeners.com</a>
