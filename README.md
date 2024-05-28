@@ -18,7 +18,7 @@
 
 <br />
 <div align="center">
-    <img src="images/garden-planner.png" width=500px></img>
+    <img src="images/garden-planner-live.png" width=500px></img>
 </div>
 <br />
 
