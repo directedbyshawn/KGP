@@ -106,12 +106,6 @@ Resources that made this project possible.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Notes
-* While I did create this project, it is no longer managed by me. I have no access to the codebase, and changes you see on the site done after August 2022 were not made by me. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
